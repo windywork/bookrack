@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;  
+}
+html {
+  background-color: #f1f5f7;
+}
+.app-main .uk-navbar-nav>li>a{
+  text-transform: none;
+}
+
+.app-main .uk-navbar {
+  background: linear-gradient(to left, #2d37bf, #2865c1) !important
+}
+.app-main .uk-navbar .uk-navbar-nav>li>a{
+  color: #fff;
+  font-size: 43px;
+  font-weight: bold;
+  font-family: -webkit-body, serif;
+}

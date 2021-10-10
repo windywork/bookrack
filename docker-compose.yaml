@@ -1,0 +1,25 @@
+version: 3
+services:
+  mysql:
+    image: mysql:5.7
+    volumes:
+      - "./volume/mysql:/var/lib/mysql"
+      - "./volume/data:/docker-entrypoint-initdb.d"
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    hostname: mysql
+    logging:
+      driver: "none"
+    networks:
+      extnetwork:
+        ipv4_address: 172.24.0.2
+    environment:
+      - MYSQL_ROOT_PASSWORD=123qwe
+    tty: true
+networks:
+  extnetwork:
+    ipam:
+      config:
+      - subnet: 172.24.0.0/16
+        gateway: 172.24.0.5

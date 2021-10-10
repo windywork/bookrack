@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;  
+}
+html {
+  background-color: #f1f5f7;
+}
+.app-main .uk-navbar-nav>li>a{
+  text-transform: none;
+}
+
+.app-main .uk-navbar {
+  background: linear-gradient(to left, #2d37bf, #2865c1) !important
+}
+.app-main .uk-navbar .uk-navbar-nav>li>a{
+  color: #fff;
+  font-size: 43px;
+  font-weight: bold;
+  font-family: -webkit-body, serif;
+}
+.app-main .main-header .uk-button-primary:focus, .app-main .main-header .uk-button-primary:hover {
+  background-color: #152cdf!important;
+}
+
+.app-main .main-header .uk-button-primary {
+  background-color: #063df0!important;
+}
+.app-main .uk-label{
+  text-transform: none;
+}
+.app-main .uk-tab>*>a {
+  text-transform: none;
+}
+.app-main .uk-modal .uk-modal-header h2 {
+  margin: 0;
+}
+.app-main .uk-card-header [class*=uk-align] {
+  margin-bottom: 0;
+}
+
+.app-main li.uk-active>a {
+  color: #000!important;
+}

@@ -1,0 +1,22 @@
+<div>
+  <ul class="uk-breadcrumb">
+      <li><span>容器集群</span></li>
+      <li><span>{{.Title}}</span></li>
+  </ul>
+  <div class="uk-card uk-card-default uk-card-body">
+     <div class="uk-card-header">
+          <div class="uk-align-left">
+                <h3 class="uk-card-title">{{.Title}}</h3>
+          </div>
+          <div class="uk-align-right">
+            {{template "ns-search-box" .}}
+          </div>
+      </div>
+      <div class="uk-card-body">
+          ...
+      </div>
+      <div class="uk-card-footer">
+          {{Slogan}}
+      </div>
+  </div>
+</div>
